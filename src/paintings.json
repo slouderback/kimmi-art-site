@@ -1,0 +1,28 @@
+{
+    "paintings": [
+        {
+            "id": 1,
+	    	"name": "Drippy Drippy",
+	    	"src": "/paintings/Drippy_Drippy.jpg",
+	    	"description": "Sample description Sample description Sample description Sample description"
+        },
+		{
+            "id": 2,
+	    	"name": "Red and White",
+	    	"src": "/paintings/red_and_white-1.JPG",
+	    	"description": "Sample description Sample description Sample description Sample description"
+        },
+		{
+            "id": 3,
+	    	"name": "Yellow Cluster",
+	    	"src": "/paintings/color_2-1.JPG",
+	    	"description": "Sample description Sample description Sample description Sample description"
+        },
+		{
+            "id": 4,
+	    	"name": "Orderly Chaos",
+	    	"src": "/paintings/black_background_small_circles.jpg",
+	    	"description": "Sample description Sample description Sample description Sample description"
+        }
+    ]
+}

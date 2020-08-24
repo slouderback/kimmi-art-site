@@ -1,9 +1,13 @@
 import React, { Component }  from 'react';
+import {
+    Link,
+} from 'react-router-dom';
 
 import Paintings from '../paintings.json';
-import '../MainContent.css' 
+import '../styling/Gallery.css' 
 
-class MainContent extends Component {
+
+class Gallery extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -14,10 +18,9 @@ class MainContent extends Component {
         return (
             <div className="allPaintings">
                 {this.state.paintingsData.map((painting, index) => (
-                    <div key={index}>
-                        <h3>{painting.name}</h3>
-                        <img src={painting.src} alt="Failed to load"/>
-                        <p>{painting.description}</p>
+                    <div key={index} className="paintingBlock">
+                        <Link to={`/gallery/${painting.name}`}><img src={painting.src} alt="Failed to load"/></Link>
+                        {/* <img src={painting.src} alt="Failed to load"/> */}
                     </div>
                 ))}
             </div>
@@ -25,4 +28,4 @@ class MainContent extends Component {
     }
 }
 
-export default MainContent;
+export default Gallery;

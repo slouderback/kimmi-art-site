@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin: auto;
+    margin-top: 35px;
+}
+
+.allPaintings {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 6vw;
+    padding-top: 3vh;
+
+    /* background-color: blue; */
+
+}
+
+/* Each painting group of information */
+
+.allPaintings div {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33.333333%;
+    /* border: 1px solid black; */
+    width: 45%;
+    padding-bottom: 2%;
+}
+
+/* Painting */
+
+.allPaintings div img {
+    width: 80%;
+    transition: all .2s ease-in-out;
+}
+
+/* Painting on hover */
+
+.allPaintings div img:hover {
+    transform: scale(1.1);
+    /* box-shadow: 5px 10px 15px #888888; */
+    -webkit-box-shadow: 0 0 30px #888888;
+    box-shadow: 0 0 30px #888888;
+}

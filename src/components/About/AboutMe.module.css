@@ -1,0 +1,16 @@
+.aboutMe {
+    display: flex;
+    align-items: center;
+    padding-left: 6vw;
+    padding-top: 10vh;
+}
+
+.profilePic {
+    width: 50%;
+    /* float: left; */
+}
+
+.text {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}

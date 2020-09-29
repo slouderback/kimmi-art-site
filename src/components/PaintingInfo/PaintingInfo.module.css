@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre');
+
+.paintingInfo {
+    display: flex;
+    flex-flow: column;
+    padding-left: 5vw;
+    padding-top: 8vh;
+}
+
+img {
+    width: 50%;
+}
+
+.title {
+    font-family: Proza Libre;
+    font-size: 48px;
+}
+
+.paintingAndPrice {
+    display: flex;
+    align-items: flex-start;
+}
+
+.infoPanel {
+    padding: 0.5vw;
+    background-color: lightblue;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.description {
+    font-size: 20px;
+}

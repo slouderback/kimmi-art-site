@@ -1,0 +1,10 @@
+.painting {
+    width: 80%;
+    transition: all .2s ease-in-out;
+}
+
+.painting:hover {
+    transform: scale(1.1);
+    -webkit-box-shadow: 0 0 30px #888888;
+    box-shadow: 0 0 30px #888888;
+}

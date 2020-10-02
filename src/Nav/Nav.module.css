@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.navList {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 100vh;
+    width: 65px;
+    height: 100%;
+    list-style-type: none;
+    background-color: #33383E;
+    gap: 20px;
+}
+
+.linkItem {
+    text-decoration: none;
+    color: white;
+}

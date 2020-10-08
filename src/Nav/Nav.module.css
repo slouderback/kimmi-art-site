@@ -14,12 +14,15 @@
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    min-height: 100vh;
-    width: 65px;
-    height: 100%;
     list-style-type: none;
-    background-color: #33383E;
     gap: 20px;
+    background-color: #33383E;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.listItemLogo {
+    padding-bottom: 100px;;
 }
 
 .linkItem {

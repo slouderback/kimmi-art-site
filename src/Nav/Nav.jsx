@@ -23,22 +23,22 @@ class Nav extends Component {
           <nav>
             {/* <ul style={{ listStyleType: 'none' }}> */}
             <ul className={styles.navList}>
-              <li>
+              <li className={styles.listItemLogo}>
                 <Link to="/" className={styles.linkItem}>
                   <Logo />
                 </Link>
               </li>
-              <li>
+              <li className={styles.listItem}>
                 <Link to="/gallery" className={styles.linkItem}>
                   <p>Gallery</p>
                 </Link>
               </li>
-              <li>
+              <li className={styles.listItem}>
                 <Link to="/about" className={styles.linkItem}>
                   <p>About</p>
                 </Link>
               </li>
-              <li>
+              <li className={styles.listItem}>
                 <Link to="/contact" className={styles.linkItem}>
                   <p>Contact Me</p>
                 </Link>

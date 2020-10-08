@@ -10,7 +10,7 @@ class ContactMe extends Component {
         return (
             <div className={styles.container}>
                 <h1 className={styles.header}>Contact Me</h1>
-                <p className={styles.description}>Please put in the name of the painting you would like to purchase and make sure to leave the correct email so I can reach you!</p>
+                <p className={styles.description}>Please put in the name of the painting and make sure to leave the correct email so I can reach you!</p>
                 <EmailForm />
             </div>
         );

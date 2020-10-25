@@ -19,6 +19,7 @@ img {
 .paintingAndPrice {
     display: flex;
     align-items: flex-start;
+    padding-bottom: 30px;
 }
 
 .infoPanel {

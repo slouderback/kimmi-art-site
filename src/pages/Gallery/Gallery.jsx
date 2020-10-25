@@ -13,6 +13,7 @@ class Gallery extends Component {
       paintingsData: Paintings.paintings,
     };
   }
+
   render() {
     return (
       <div className={styles.container}>

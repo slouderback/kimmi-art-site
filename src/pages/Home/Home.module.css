@@ -1,0 +1,40 @@
+.container {
+    height: 100%;
+    width: calc(100vw - 125px);
+    /* filter: grayscale(50%); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+.header {
+    margin-top: 15vh;
+    margin-left: 9vw;
+    font-size: 4.2vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    padding: 10px;
+}
+
+.galleryButton {
+    margin-left: 9.5vw;
+    font-family: 'Roboto Slab';
+    background-color: Transparent;
+    cursor:pointer;
+    outline:none;
+    width: 250px;
+    border:  2px solid white;
+    padding: 10px;
+    font-size:  28px;
+    color:  #fff;
+}

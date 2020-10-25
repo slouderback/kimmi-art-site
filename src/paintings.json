@@ -1,124 +1,144 @@
 {
-    "paintings": [
-		{
-            "id": 1,
-	    	"name": "Orderly Chaos",
-	    	"src": "/paintingsMain/black_background_small_circles-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-        {
-            "id": 2,
-	    	"name": "Bust A Move",
-	    	"src": "/paintingsMain/Bust a Move full-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-        },
-		{
-            "id": 3,
-	    	"name": "Color 2 - Get name for this",
-	    	"src": "/paintingsMain/color_2-1-min.JPG",
-	    	"description": "Sample description Sample description Sample description Sample description"
-        },
-		{
-            "id": 4,
-	    	"name": "Crazy",
-	    	"src": "/paintingsMain/Crazy Main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-        },
-		{
-            "id": 5,
-	    	"name": "Dancing Machine",
-	    	"src": "/paintingsMain/Dancing Machine Main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 6,
-	    	"name": "Drippy Drippy",
-	    	"src": "/paintingsMain/Drippy_Drippy-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 7,
-	    	"name": "Get Lucky",
-	    	"src": "/paintingsMain/Get Lucky -min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 8,
-	    	"name": "Indestructible",
-	    	"src": "/paintingsMain/indestructible main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 9,
-	    	"name": "Lose Yourself",
-	    	"src": "/paintingsMain/Lose Yourself Main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 10,
-	    	"name": "Poker Face",
-	    	"src": "/paintingsMain/Poker face main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 11,
-	    	"name": "Push It",
-	    	"src": "/paintingsMain/Push It - 2019-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 12,
-	    	"name": "Red and White",
-	    	"src": "/paintingsMain/red_and_white-1-min.JPG",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 13,
-	    	"name": "Rock the Bells",
-	    	"src": "/paintingsMain/Rock the Bells-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 14,
-	    	"name": "Slow my Roll 2",
-	    	"src": "/paintingsMain/Slow my Roll 2-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 15,
-	    	"name": "Snow Blind",
-	    	"src": "/paintingsMain/Snow Blind main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 16,
-	    	"name": "So What",
-	    	"src": "/paintingsMain/So What main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 17,
-	    	"name": "Superstition",
-	    	"src": "/paintingsMain/superstition main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 18,
-	    	"name": "The World I Know",
-	    	"src": "/paintingsMain/The World I Know Main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 19,
-	    	"name": "Whiskey River Main",
-	    	"src": "/paintingsMain/Whiskey River Main-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		},
-		{
-            "id": 20,
-	    	"name": "You Learn",
-	    	"src": "/paintingsMain/you learn full-min.jpg",
-	    	"description": "Sample description Sample description Sample description Sample description"
-		}
-    ]
+  "paintings": [
+    {
+      "id": 1,
+      "name": "Orderly Chaos",
+      "src": "/paintingsMain/black_background_small_circles-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Bust A Move",
+      "src": "/paintingsMain/Bust a Move full-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "Color 2 - Get name for this",
+      "src": "/paintingsMain/color_2-1-min.JPG",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Crazy",
+      "src": "/paintingsMain/Crazy Main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Dancing Machine",
+      "src": "/paintingsMain/Dancing Machine Main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "Drippy Drippy",
+      "src": "/paintingsMain/Drippy_Drippy-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "Get Lucky",
+      "src": "/paintingsMain/Get Lucky -min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 8,
+      "name": "Indestructible",
+      "src": "/paintingsMain/indestructible main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "Lose Yourself",
+      "src": "/paintingsMain/Lose Yourself Main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "Poker Face",
+      "src": "/paintingsMain/Poker face main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 11,
+      "name": "Push It",
+      "src": "/paintingsMain/Push It - 2019-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 12,
+      "name": "Red and White",
+      "src": "/paintingsMain/red_and_white-1-min.JPG",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 13,
+      "name": "Rock the Bells",
+      "src": "/paintingsMain/Rock the Bells-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 14,
+      "name": "Slow my Roll 2",
+      "src": "/paintingsMain/Slow my Roll 2-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 15,
+      "name": "Snow Blind",
+      "src": "/paintingsMain/Snow Blind main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 16,
+      "name": "So What",
+      "src": "/paintingsMain/So What main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 17,
+      "name": "Superstition",
+      "src": "/paintingsMain/superstition main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 18,
+      "name": "The World I Know",
+      "src": "/paintingsMain/The World I Know Main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 19,
+      "name": "Whiskey River Main",
+      "src": "/paintingsMain/Whiskey River Main-min.jpg",
+      "price": 2000,
+      "description": ""
+    },
+    {
+      "id": 20,
+      "name": "You Learn",
+      "src": "/paintingsMain/you learn full-min.jpg",
+      "price": 2000,
+      "description": ""
+    }
+  ]
 }

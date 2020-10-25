@@ -1,16 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre');
+
 .aboutMe {
+    font-family: Proza Libre;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-left: 6vw;
-    padding-top: 10vh;
+    padding-top: 50px;
+    width: calc(100vw - 125px);
+    background-color:#e4e4e4;
+
 }
 
 .profilePic {
+    margin-top: 15px;
     width: 50%;
-    /* float: left; */
 }
 
 .text {
-    padding-left: 3vw;
-    padding-right: 3vw;
+    font-family: Proza Libre;
+    font-size: 20px;
+    margin-top: 50px;
+    width: 30vw;
 }

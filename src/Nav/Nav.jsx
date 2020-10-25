@@ -8,10 +8,10 @@ import {
 } from "react-router-dom";
 
 import Logo from "../components/Logo";
+import Home from "../pages/Home/Home"
 import Gallery from "../pages/Gallery/Gallery";
 import About from "../pages/About/About";
 import PaintingInfo from "../pages/PaintingInfo/PaintingInfo";
-import ContactMe from "../pages/ContactMe/ContactMe";
 
 import styles from "./Nav.module.css";
 
@@ -20,11 +20,11 @@ class Nav extends Component {
     return (
       <Router>
         <div className={styles.container}>
-          <nav>
+          <nav className={styles.nav}>
             {/* <ul style={{ listStyleType: 'none' }}> */}
             <ul className={styles.navList}>
               <li className={styles.listItemLogo}>
-                <Link to="/" className={styles.linkItem}>
+                <Link to="/" className={styles.listItemLogo}>
                   <Logo />
                 </Link>
               </li>
@@ -39,16 +39,14 @@ class Nav extends Component {
                 </Link>
               </li>
               <li className={styles.listItem}>
-                <Link to="/contact" className={styles.linkItem}>
-                  <p>Contact Me</p>
-                </Link>
+                <a href={"mailto:kimmirisk@gmail.com"} className={styles.linkItem}>Contact Me</a>
               </li>
             </ul>
           </nav>
           <div className={styles.content}>
             <Switch>
               <Redirect from="index.html" to="/" />
-              <Route exact path="/" component={Gallery} />
+              <Route exact path="/" component={Home} />
               <Route exact path="/gallery" component={Gallery} />
               <Route exact path="/about" component={About} />
               <Route
@@ -56,7 +54,6 @@ class Nav extends Component {
                 path="/gallery/:paintingName"
                 component={PaintingInfo}
               />
-              <Route exact path="/contact" component={ContactMe} />
               <Redirect from="*" to="/" />
             </Switch>
           </div>

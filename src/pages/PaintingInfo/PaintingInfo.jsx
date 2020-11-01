@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Nav from "../../components/Nav/Nav";
+
 import Paintings from "../../paintings.json";
 
 import styles from "./PaintingInfo.module.css";
@@ -23,17 +25,20 @@ class PaintingInfo extends Component {
       }
     }
     return (
-      <div className={styles.paintingInfo}>
-        <div className={styles.title}>{paintingInfo.name}</div>
-        <div className={styles.paintingAndPrice}>
-          <img src={paintingInfo.src} alt="Not found"></img>
-          <div className={styles.infoPanel}>
-            <div className="price">Price: ${paintingInfo.price}</div>
-            {/* <div className="size">Size: 48 x 30"</div>
+      <div className={styles.container}>
+        <Nav />
+        <div className={styles.paintingInfo}>
+          <div className={styles.title}>{paintingInfo.name}</div>
+          <div className={styles.paintingAndPrice}>
+            <img src={paintingInfo.src} alt="Not found"></img>
+            <div className={styles.infoPanel}>
+              <div className="price">Price: ${paintingInfo.price}</div>
+              {/* <div className="size">Size: 48 x 30"</div>
             <div className="year">Year: 2018</div> */}
+            </div>
           </div>
+          <div className={styles.description}>{paintingInfo.description}</div>
         </div>
-        <div className={styles.description}>{paintingInfo.description}</div>
       </div>
     );
   }

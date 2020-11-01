@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 import image from "../../backgroundImages/Slow_My_Roll_2_detail-2.jpg";
 

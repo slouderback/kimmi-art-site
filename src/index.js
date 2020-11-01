@@ -1,13 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Nav from './Nav/Nav';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch,
+} from "react-router-dom";
+
+import "./index.css";
+
+import Home from "./pages/Home/Home";
+import Gallery from "./pages/Gallery/Gallery";
+import About from "./pages/About/About";
+import PaintingInfo from "./pages/PaintingInfo/PaintingInfo";
+
+import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-    <Nav />,
-  document.getElementById('root')
+  <Router>
+    <Switch>
+      <Redirect from="index.html" to="/" />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/gallery" component={Gallery} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/gallery/:paintingName" component={PaintingInfo} />
+      <Redirect from="*" to="/" />
+    </Switch>
+  </Router>,
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

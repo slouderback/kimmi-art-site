@@ -1,6 +1,6 @@
 .container {
     height: 100%;
-    width: calc(100vw - 125px);
+    width: 100vw;
     /* filter: grayscale(50%); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -18,9 +18,10 @@
 }
 
 .header {
-    margin-top: 15vh;
+    margin-top: 13%;
     margin-left: 9vw;
-    font-size: 4.2vw;
+    font-size: 5.3em;
+    line-height: 100px;
     color: rgb(255, 255, 255);
     font-family: 'Poppins';
     padding: 10px;

@@ -2,8 +2,14 @@
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color:#e4e4e4;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    background-color: #BEBCB3;
 }
 
 .header {

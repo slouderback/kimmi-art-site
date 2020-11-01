@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Proza+Libre');
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
 .paintingInfo {
     display: flex;
     flex-flow: column;
     padding-left: 5vw;
     padding-top: 8vh;
+    background-color: #BEBCB3;
+    width: 100%;
 }
 
 img {

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.847e93ff.chunk.css",
+    "main.js": "/static/js/main.185cd84a.chunk.js",
+    "main.js.map": "/static/js/main.185cd84a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4635f0ed.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4635f0ed.js.map",
+    "static/js/2.046fca29.chunk.js": "/static/js/2.046fca29.chunk.js",
+    "static/js/2.046fca29.chunk.js.map": "/static/js/2.046fca29.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c4c4def0792b720a34e1099c48121fea.js": "/precache-manifest.c4c4def0792b720a34e1099c48121fea.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.847e93ff.chunk.css.map": "/static/css/main.847e93ff.chunk.css.map",
+    "static/js/2.046fca29.chunk.js.LICENSE.txt": "/static/js/2.046fca29.chunk.js.LICENSE.txt",
+    "static/media/Slow_My_Roll_2_detail-2.jpg": "/static/media/Slow_My_Roll_2_detail-2.f60f5245.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4635f0ed.js",
+    "static/js/2.046fca29.chunk.js",
+    "static/css/main.847e93ff.chunk.css",
+    "static/js/main.185cd84a.chunk.js"
+  ]
+}

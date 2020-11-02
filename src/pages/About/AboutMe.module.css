@@ -23,8 +23,10 @@
 }
 
 .profilePic {
+    margin-left: 20px;
     margin-top: 40px;
-    height: 85%;
+    height: auto;
+    max-height: 675px;
     box-shadow: 0 0 30px #333;
 }
 
@@ -33,7 +35,24 @@
     flex-direction: column;
     gap: 30px;
     font-family: Proza Libre;
-    font-size: 25px;
+    font-size: 1rem;
     margin-top: 50px;
     width: 30vw;
+}
+
+/* 1200 */
+
+@media screen and (max-width: 1200px) {
+    .content {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .profilePic {
+        margin-top: 0px;
+    }
+    .text {
+        width: 80%;
+        font-size: 1.2rem;
+        padding-bottom: 30px;
+    }
 }
